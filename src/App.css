@@ -79,8 +79,8 @@ header{
 }
 .input{
     width: 100%;
-    max-width: 800px;
-    height: 50px;
+    max-width: 1000px;
+    height: 70px;
     margin: 2rem auto;
     text-align: center;
     border-radius: 25px;
@@ -88,41 +88,46 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 input{
-    width: 70%;
+    width: 75%;
     border: none;
     border-radius: 12px 0 0 12px;
-    height: 25px;
+    height: 50px;
     background-color: #000;
     color: #8EFF8B;
     text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 input::placeholder{
     color: #8EFF8B;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 .btn_search{
     width: 20%;
-    height: 25px;
+    height: 50px;
     border-radius: 0 12px 12px 0;
     border: none;
     color: #8EFF8B;
     border-left: 1px solid white;
     background-color: #000;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 .location__info{
-    width: 100%;
+    width: 90%;
     min-height: 120px;
     padding: .5rem;
     margin: 2rem auto 1rem auto;
     display: flex;
     flex-wrap: wrap;
     font-size: .8rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
     justify-content: space-between;
     background-color: #000;
     border: 4px solid #8EFF8B;
