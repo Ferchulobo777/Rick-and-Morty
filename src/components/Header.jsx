@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <section>
     <div className='container_header_img'>
-        <img width="100%" src={picture} alt="header.jpg" />
-        <Sound src={sound}/> 
+        <img  className='img-header' width="100%" src={picture} alt="header.jpg" />
     </div>
+    <Sound src={sound}/> 
     </section>
 
   )
