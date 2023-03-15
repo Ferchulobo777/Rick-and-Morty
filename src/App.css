@@ -788,7 +788,8 @@ input::placeholder{
         -o-border-radius: 5px;
     }
     }
-    @media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 1024px) {
         .container_button{
             display: flex;
             position: relative;
@@ -821,7 +822,7 @@ input::placeholder{
         }
 
     }
-    @media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px){
         .container_button{
             display: flex;
             position: relative;
@@ -854,7 +855,7 @@ input::placeholder{
             -o-border-radius: 5px;
         }
     }
-    @media screen and (min-width: 1536px) {
+@media screen and (min-width: 1536px) {
         .container_button{
             display: flex;
             position: relative;
@@ -897,4 +898,50 @@ input::placeholder{
             -o-border-radius: 5px;
         }
 
+        
+}
+@media screen and (min-width: 1790px) {
+    .container_button{
+        display: flex;
+        position: relative;
+        width: 4rem;
+        height: 2rem;
+        top: 0;
+        left: 54rem;
+        justify-self: center;
+        margin-top: 1rem;
+        background-color: transparent;
+       }
+
+       .residents__contain{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .resident__card{
+        width: 350px;
+    }
+    .info__status{
+        width: 165px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 5px;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 308px;
+        left: 85px;
+        border: 2px solid #8EFF8B;
+        color: #8EFF8B;
+        font-size: 1.1rem;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    
 }
