@@ -51,11 +51,15 @@ const Main = () => {
     return (
         <div className='main__contain'>
             <div className='input'>
-                <input type="number"
-                    value={searchLoc}
-                    onChange={(e) => setSearchLoc(e.target.value)}
-                    placeholder="Localiza una Dimension entre (1 - 126)" />
-                <button onClick={search} className="btn_search" >Buscar</button>
+            <input
+             type="number"
+             value={searchLoc}
+             onChange={(e) => setSearchLoc(e.target.value)}
+             placeholder="Localiza una Dimension entre (1 - 126)"
+             onKeyDown={(e) => {
+             if (e.keyCode === 13) {
+             search(); }}}/>
+            <button onClick={search} className="btn_search" >Buscar</button>
             </div>
             {
                 load ? <div className='load'><i className='bx bx-loader-circle bx-spin bx-lg' ></i></div> :

@@ -256,7 +256,11 @@ input::placeholder{
     }
     66%{
         transform: scale(1);
-    }
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
     100%{
         transform: scale(0.7);
         opacity: .5;
@@ -331,10 +335,17 @@ input::placeholder{
     margin-top: 8rem;
     filter: drop-shadow(.7px .7px .7px #8EFF8B);
     -webkit-filter: drop-shadow(.7px .7px .7px #8EFF8B);
+    text-decoration: none;
 }
 .heart{
-    animation: latent 1.3s infinite linear;
+    animation: latent 1s infinite linear;
+    -webkit-animation: latent 1s infinite linear;
 }
+.heart2{
+    text-decoration: none;
+}
+
+
 .contact{
     text-align: center;
     margin-top: 3rem;
